@@ -1,5 +1,5 @@
 # TinyOS Cooja Simulator
-This is a TinyOS application which transfer data between three sensors (motes) and according to the seder ID turn off/on the LEDs. These sensors broadcast messages. When a sensor receive a message, it turns LEDs on and off according to counters that it received. So every time a timer fires it sends a message containing this counter and sensor ID which is declared in “.h” file.
+This is a TinyOS application which transfers data between three sensors (motes) and according to the seder ID turn off/on the LEDs. These sensors broadcast messages. When a sensor receive a message, it turns LEDs on and off according to counters that it received. So every time a timer fires it sends a message containing this counter and sensor ID which is declared in “.h” file.
 In “RadioCountToLedsC.nc” there are three timers with three different times (Milisec), and the other related interfaces including LED, boot, timer, receiving, sending, starting the radio and managing packets.
 
 In this application there are three files called "RadioCountToLeds.h", "RadioCountToLedsappc.nc" and "RadioCountToLedsC.nc". 
